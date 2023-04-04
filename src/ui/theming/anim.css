@@ -1,0 +1,34 @@
+
+h1 {
+    animation:fadeout 1s ease-out forwards;
+    -webkit-animation:fadeout 1s;
+  }
+  
+  .topIcon {
+    animation: iconAnim 1s ease-out forwards;
+    -webkit-animation:iconAnim 1s;
+  }
+  
+  @keyframes fadeout
+  { 
+    from { opacity: 0;}
+    to { opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeout 
+  {
+    from { opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes iconAnim
+  { 
+    from {margin-left: 120px; opacity: 0;}
+    to {margin-left: 0px;  opacity: 1}
+  }
+  
+  @-webkit-keyframes iconAnim 
+  {
+    from {margin-left:120px; opacity: 0;}
+    to {margin-left:0px; opacity: 1;}
+  }

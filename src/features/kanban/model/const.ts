@@ -1,0 +1,1 @@
+export const RESPONDENT_ITEM = 'RESPONDENT_ITEM'
